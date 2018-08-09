@@ -85,7 +85,7 @@ public class MainControler {
             //推
             List<RecommendedItem> list=recommender.recommend(hasgetid,1);
             if (list.size()==0){
-                System.out.println("你提交的数据格式有误，请核实数据");
+                //System.out.println("你提交的数据格式有误，请核实数据");
             }
             else {
                 System.out.println(list.size());
